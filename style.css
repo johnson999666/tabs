@@ -30,19 +30,20 @@
     border-right: 2px solid black;
     border: 2px solid black;
     border-radius: 10px;
-    margin: 100px;
+    margin: 50px;
     background-color: #f7e9d9;
     
 }
 .title1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-image: url("keys.jpg");
   background-size: cover; /* or contain, depending on your preference */
   background-position: center center;
   height: 400px; /* set the height to match your image height */
 }
-#title1 {
+.maintitle {
     text-align: center;
     color: #F0F0F0;
 }
@@ -52,6 +53,7 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-top: 50px;
     
 }
 
